@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name"> </string>
+    <string name="footer">GSB - Galaxy Swiss Bourdin</string>
+    <string name="Titre1">Les médicaments</string>
+    <string name="Titre2">Les familles</string>
+    <string name="title_medicament_list">Les Medicaments</string>
+    <string name="title_medicament_detail">medicament Detail</string>
+    <string name="title_activity_famillle">Les Famillles</string>
+    <string name="title_activity_add_medicament">Ajoutez le médicament</string>
+    <string name="addMed">Ajoutez un médicament</string>
+    <string name="title_activity_modifmedicament">Modifiez le médicament</string>
+</resources>

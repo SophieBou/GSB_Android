@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sophie.gsb2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".medicamentListActivity"
+            android:label="@string/title_medicament_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".medicamentDetailActivity"
+            android:label="@string/title_medicament_detail"
+            android:parentActivityName=".medicamentListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sophie.gsb2.medicamentListActivity" />
+        </activity>
+        <activity
+            android:name=".FamillleActivity"
+            android:label="@string/title_activity_famillle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddMedicamentActivity"
+            android:label="@string/title_activity_add_medicament"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+    android:name=".modifmedicamentActivity"
+    android:label="@string/title_activity_modifmedicament"
+    android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+    </manifest>
